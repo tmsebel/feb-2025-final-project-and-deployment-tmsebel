@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawana's Blog | All Posts</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container nav-content">
+            <div class="nav-logo">Tawana's Blog</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="blog-posts">
+        <div class="container">
+            <h2 class="section-title">All Blog Posts</h2>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+            </div>
+            <div class="post-grid">
+                <div class="post-card" data-category="programming" id="post1">
+                    <img src="assets/calculator.jpg" alt="Post 1" class="post-img">
+                    <div class="post-content">
+                        <h3 class="post-title">Getting Started with Python</h3>
+                        <div class="post-meta">Posted on May 1, 2025 | Category: Programming</div>
+                        <p class="post-excerpt">Learn the basics of Python programming with practical examples and tips for beginners.</p>
+                        <div class="post-content-full">
+                            <p>This post covers Python syntax, variables, loops, and functions with code examples.</p>
+                            <p>Example: <code>def greet(name): return f"Hello, {name}!"</code></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card" data-category="web" id="post2">
+                    <img src="assets/static_web.jpg" alt="Post 2" class="post-img">
+                    <div class="post-content">
+                        <h3 class="post-title">Building Responsive Websites</h3>
+                        <div class="post-meta">Posted on April 15, 2025 | Category: Web Development</div>
+                        <p class="post-excerpt">Discover CSS techniques for creating responsive designs that work on all devices.</p>
+                        <div class="post-content-full">
+                            <p>Learn about CSS Grid, Flexbox, and media queries for responsive layouts.</p>
+                            <p>Example: <code>@media (max-width: 768px) { .container { padding: 10px; } }</code></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2025 Tawana Technology Group. All rights reserved.</p>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
