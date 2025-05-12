@@ -4,7 +4,7 @@ A fully functional multi-page blog website showcasing tech-related content, buil
 
 ## Live Demo
 
-[Visit the website](https://tawana-blog.vercel.app/)
+[Visit the website](https://tawanaplpfinal.vercel.app/)
 
 ## Description
 
